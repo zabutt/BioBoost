@@ -1,7 +1,7 @@
 import streamlit as st
 import requests
 
-gemini_api_key = "YOUR_GEMINI_API_KEY"  # Replace with your actual API key
+gemini_api_key = "AIzaSyDa7tTO-H2l1OqNbhVK4r6I_1hTcdhXi58"  # Replace with your actual API key
 
 def generate_bio(profession, bio_style, social_media_platform):
     url = "https://api.openai.com/v1/engines/text-davinci-003/completions"
